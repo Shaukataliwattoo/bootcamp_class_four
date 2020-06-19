@@ -21,11 +21,12 @@ function App() {
       <button onClick={() => setCount(count + 1  ) } className= {'updateCounter'}>
         Increase Value 
       </button>
-      <br />
+     
       <button onClick={() => setCount(count - 1)} className= {'decrease'}>
         Decrease Value
       </button>
-      
+      <br />
+      <button onClick={() => setCount(0)}>Reset Counter</button>
     </div>
   );
 }
