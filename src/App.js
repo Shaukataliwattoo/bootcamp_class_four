@@ -26,7 +26,7 @@ function App() {
         Decrease Value
       </button>
       <br />
-      <button onClick={() => setCount(0)}>Reset Counter</button>
+      <button onClick={() => setCount(0)}>Reset Value</button>
     </div>
   );
 }
